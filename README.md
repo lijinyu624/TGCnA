@@ -19,7 +19,7 @@ tvec    = c( 1, 2, 3, 4, 5) # set the time-lapses from the beginning
 numreps = c(15,15,15,15,15) # set the number of replication for each time point
 
 
-#### Returen estimated correlation list results for each time point
+#### Return estimated correlation list results for each time point
 correlationMatrix = NULL
 correlationMatrix = TGCN(tvec, numreps, Data_t5_c5_r15)
 
